@@ -100,6 +100,7 @@ public class PolyParser  {
           for(int i =0; i<vars.size(); i++){
               if(checkAnagram(var,vars.get(i))){
                   var = vars.get(i);
+                  break;
               }
           }
           vars.add(var);
@@ -110,6 +111,7 @@ public class PolyParser  {
         for(int i = 0; i<vars.size(); i++){
             if(checkAnagram(var,vars.get(i))){
                 var = vars.get(i);
+                break;
             }
         } 
         vars.add(var);
